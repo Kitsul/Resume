@@ -1,0 +1,323 @@
+body {
+    font-family: 'Ubuntu';
+    background-color: #303d46;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.width-wrapper {
+    width: 100%;
+    max-width: 1366px;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #e0e0e0;
+}
+
+.header {
+    display: flex;
+}
+
+.header-description-block {
+    display: inline-block;
+    width: 48%;
+}
+
+.button-pdf {
+    text-align: end;
+}
+
+.button-pdf a {
+    background-color: #fff;
+    color: #479099;
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.header .header-image-wrapper {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header-image-wrapper .header-photo {
+    width: 160px;
+    height: 160px;
+    max-width: 240px;
+    max-height: 240px;
+    border: solid 1px #d3d3d3;
+    border-radius: 50%;
+}
+
+.header .header-description {
+    background-color: #479099;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    padding-left: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header .header-description .description-name {
+    font-size: 46px;
+    min-height: 46px;
+    line-height: 48px;
+}
+
+.header .header-description .description-position {
+    font-size: 24px;
+    min-height: 35px;
+    line-height: 26px;
+    max-width: 200px;
+    border-bottom: solid 2px #fff;
+}
+
+.body {
+    display: flex;
+}
+
+.body .aside-section {
+    width: 320px;
+}
+
+.body .main-section {
+    width: 100%;
+}
+
+.body .main-section .main-section-wrapper {
+    padding-left: 40px;
+}
+
+.body .main-section .main-section-title {
+    color: #479099;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    min-height: 28px;
+    line-height: 30px;
+}
+
+.body .main-section .main-section-experience-item:first-of-type {
+    border-top: solid 2px #479099;
+}
+
+.body .main-section .main-section-experience-item {
+    margin-bottom: 60px;
+    font-size: 24px;
+    min-height: 24px;
+    line-height: 26px;
+    font-style: normal;
+}
+
+.body .main-section .main-section-experience-item .item-position {
+    color: #479099;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+}
+
+.body .main-section .main-section-experience-item .item-company {
+    color: #000;
+    font-weight: 700;
+}
+
+.body .main-section .main-section-experience-item .item-company a {
+    text-decoration: none;
+    color: #000;
+}
+
+.body .main-section .main-section-experience-item .item-time-place, .item-achievements {
+    color: #479099;
+    font-size: 16px;
+    min-height: 16px;
+    line-height: 18px;
+    font-style: italic;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.body .main-section .main-section-experience-item .item-description-tasks {
+    font-size: 18px;
+    min-height: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.body .main-section .main-section-experience-item .item-description-tasks li {
+    list-style: square;
+}
+
+.aside-header {
+    color: #479099;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    min-height: 28px;
+    line-height: 30px;
+}
+
+.aside-wrapper {
+    border-color: #479099;
+    border-top-width: 2px;
+    border-top-style: solid;
+    width: 85%;
+}
+
+.aside-wrapper .skill-item {
+    font-size: 18px;
+    min-height: 18px;
+    line-height: 22px;
+    outline: 0;
+    color: #fff;
+    background-color: #479099;
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.aside-wrapper .skill-item:first-of-type {
+    margin-top: 30px;
+}
+
+.aside-wrapper .language-item {
+    font-size: 16px;
+    min-height: 16px;
+    line-height: 18px;
+    color: #479099;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.aside-wrapper .language-header {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.aside-wrapper .interest-item {
+    display: inline-block;
+    border-radius: 6px;
+    padding: 6px 14px;
+    border: solid 2px #b2b2b2;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.aside-block {
+    margin-bottom: 50px;
+}
+
+.aside-contact-block {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.aside-contact {
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main-section-education-item {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    min-height: 24px;
+    line-height: 26px;
+    outline: 0;
+    color: #479099;
+    margin-bottom: 40px;
+}
+
+.main-section-education-item:first-of-type {
+    border-top: solid 2px #479099;
+}
+
+.education-item-position {
+    margin-bottom: 0;
+}
+
+.education-item-place {
+    color: #000;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.education-item-date {
+    font-size: 16px;
+    min-height: 16px;
+    line-height: 18px;
+    font-style: italic;
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .body {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .body .main-section .main-section-wrapper {
+        padding-left: 0px;
+    }
+
+    .header .header-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .header-description-block {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-pdf {
+        text-align: center;
+    }
+
+    .button-pdf a {
+        display: block;
+        width: 60%;
+        margin: 0 auto 30px;
+    }
+}
