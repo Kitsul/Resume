@@ -160,7 +160,10 @@ h3 {
 .body .main-section .main-section-experience-item .item-description-tasks li {
     list-style: square;
 }
-
+.body .main-section .main-section-experience-item .item-description-tasks li a{
+    color: #000;
+    font-style: italic;
+}
 .aside-header {
     color: #479099;
     font-weight: 700;
@@ -221,10 +224,12 @@ h3 {
     border-radius: 6px;
     padding: 6px 14px;
     border: solid 2px #b2b2b2;
-    margin-top: 30px;
     cursor: pointer;
+    margin-top: 0px;
 }
-
+.aside-wrapper .interest-item:first-of-type{
+    margin-top: 30px;
+}
 .aside-block {
     margin-bottom: 50px;
 }
