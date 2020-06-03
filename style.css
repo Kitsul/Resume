@@ -292,7 +292,9 @@ h3 {
         align-items: center;
         justify-content: center;
     }
-
+    .body .aside-section {
+        width: 100%;
+    }
     .body .main-section .main-section-wrapper {
         padding-left: 0px;
     }
